@@ -1,0 +1,256 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="An econometric study of government support and youth labor supply in Mexico using ENOE 2026 Q1."
+    />
+    <title>Government Support and Youth Labor Supply — Daniel Mendoza</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body class="case-study-page">
+    <div class="custom-cursor" aria-hidden="true"></div>
+
+    <header class="site-header home-header">
+      <a class="site-identity" href="index.html">Daniel Mendoza</a>
+      <nav class="site-nav" aria-label="Primary navigation">
+        <a href="index.html#work" aria-current="page">Work</a>
+        <a href="blog.html">Blog</a>
+        <a href="assets/documents/daniel-mendoza-resume.pdf" target="_blank" rel="noopener">Resume</a>
+      </nav>
+    </header>
+
+    <main id="top" class="case-main">
+      <aside class="case-index" aria-label="Case study sections">
+        <a class="case-index-home" href="index.html#work">← Work</a>
+        <nav>
+          <a href="#overview" data-case-nav>Overview</a>
+          <a href="#research-design" data-case-nav>Research design</a>
+          <a href="#findings" data-case-nav>Findings</a>
+          <a href="#age-pattern" data-case-nav>Age pattern</a>
+          <a href="#limitations" data-case-nav>Limitations</a>
+        </nav>
+        <a class="case-index-top" href="#top">Back to top ↑</a>
+      </aside>
+
+      <div class="case-content">
+      <header class="case-hero" id="overview">
+        <p class="case-kicker">Economic research · 2026</p>
+        <h1>Do government transfers change how much young students work?</h1>
+        <p class="case-deck">
+          An observational study using ENOE microdata and inverse-probability-weighted
+          regression adjustment to examine two different margins of youth labor supply.
+        </p>
+
+        <dl class="case-facts">
+          <div><dt>Role</dt><dd>Researcher</dd></div>
+          <div><dt>Data</dt><dd>ENOE 2026 Q1</dd></div>
+          <div><dt>Sample</dt><dd>21,691 students</dd></div>
+          <div><dt>Tools</dt><dd>Stata · LaTeX</dd></div>
+          <div><dt>Method</dt><dd>IPWRA · ATET</dd></div>
+        </dl>
+      </header>
+
+      <section class="case-cover" aria-label="Headline finding">
+        <div class="case-cover-copy">
+          <p class="case-cover-label">Estimated association · weekly hours</p>
+          <p class="case-cover-number">−0.57</p>
+          <p class="case-cover-ci">95% CI [−0.98, −0.16] · p = 0.006</p>
+          <p class="case-cover-note">Among students receiving government support</p>
+        </div>
+        <div class="case-cover-graphics" aria-hidden="true">
+          <figure class="case-cover-sheet case-cover-sheet-one">
+            <img src="assets/projects/enoe/01_cover_robustness.svg" alt="" />
+          </figure>
+          <figure class="case-cover-sheet case-cover-sheet-two">
+            <img src="assets/projects/enoe/02_cover_age_heterogeneity.svg" alt="" />
+          </figure>
+        </div>
+      </section>
+
+      <section class="case-section case-intro" aria-labelledby="overview-title">
+        <div class="case-section-label">
+          <p>01</p>
+          <h2 id="overview-title">Overview</h2>
+        </div>
+        <div class="case-prose case-prose-large">
+          <p>
+            Working while studying is not a single decision. A student can remain
+            employed but reduce the time devoted to work. That distinction shaped
+            the project from the beginning.
+          </p>
+          <blockquote>
+            Government support was not associated with a detectable change in
+            employment, but it was associated with fewer weekly working hours.
+          </blockquote>
+          <p>
+            The analysis focuses on students ages 15–18 in Mexico. Rather than
+            treating a government transfer as automatically removing a student from
+            work, it separates the extensive margin—whether someone is employed—from
+            total weekly hours, including valid zeros.
+          </p>
+          <figure class="stata-figure stata-figure-wide">
+            <img
+              src="assets/projects/enoe/05_weighted_descriptive_outcomes.svg"
+              alt="Weighted employment rates are nearly identical, while average weekly hours are lower among students receiving support."
+            />
+            <figcaption>Weighted descriptive outcomes before adjustment.</figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section class="case-section" id="research-design" aria-labelledby="design-title">
+        <div class="case-section-label">
+          <p>02</p>
+          <h2 id="design-title">Research design</h2>
+        </div>
+        <div>
+          <div class="pipeline" aria-label="Data preparation pipeline">
+            <div><span>01</span><strong>Merge</strong><p>SDEMT + COE1 + COE2 using an audited individual key.</p></div>
+            <div><span>02</span><strong>Define</strong><p>Students ages 15–18 and a treatment built from original P10 responses.</p></div>
+            <div><span>03</span><strong>Adjust</strong><p>IPWRA with demographic, household, territorial, and state controls.</p></div>
+            <div><span>04</span><strong>Validate</strong><p>Survey weights, common support, covariate balance, and alternative specifications.</p></div>
+          </div>
+
+          <div class="case-prose">
+            <h3>The identification problem</h3>
+            <p>
+              Support recipients and non-recipients are not directly comparable.
+              Age, household composition, location, and socioeconomic conditions can
+              influence both program receipt and labor supply. IPWRA combines a
+              treatment model with outcome regression to improve comparability on
+              observed characteristics.
+            </p>
+            <p>
+              The main model controls for sex, categorical age, household size,
+              urban–rural status, and state. The expanded specification adds other
+              household members’ labor income and education level as a robustness
+              check. ENOE’s quarterly expansion factor is incorporated as a
+              probability weight.
+            </p>
+          </div>
+          <figure class="stata-figure">
+            <img
+              src="assets/projects/enoe/04_propensity_overlap.svg"
+              alt="Propensity-score distributions for recipients and non-recipients show broad common support."
+            />
+            <figcaption>Propensity-score overlap is a diagnostic, not proof of conditional independence.</figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section class="case-section case-findings" id="findings" aria-labelledby="findings-title">
+        <div class="case-section-label">
+          <p>03</p>
+          <h2 id="findings-title">What I found</h2>
+        </div>
+        <div>
+          <div class="finding-pair">
+            <article>
+              <p>Employment</p>
+              <strong>−0.19 pp</strong>
+              <span>p = 0.779 · no detectable change</span>
+            </article>
+            <article class="finding-primary">
+              <p>Weekly hours</p>
+              <strong>−0.57 h</strong>
+              <span>p = 0.006 · 95% CI [−0.98, −0.16]</span>
+            </article>
+          </div>
+
+          <figure class="stata-figure stata-figure-wide">
+            <img
+              src="assets/projects/enoe/03_two_margins.svg"
+              alt="The estimated employment effect crosses zero, while the estimate for weekly hours remains below zero."
+            />
+            <figcaption>The same treatment can produce different responses across the extensive and total-hours margins.</figcaption>
+          </figure>
+
+          <div class="result-chart-card">
+            <div class="chart-copy">
+              <p class="chart-eyebrow">Robustness across specifications</p>
+              <h3>The estimated reduction remains below zero.</h3>
+              <p>Points show the ATET; horizontal lines show 95% confidence intervals.</p>
+            </div>
+            <img
+              class="case-forest-export"
+              src="assets/projects/enoe/01_cover_robustness.svg"
+              alt="Four IPWRA specifications estimate reductions between 0.57 and 0.71 weekly working hours, with every 95 percent confidence interval below zero."
+            />
+          </div>
+        </div>
+      </section>
+
+      <section class="case-section" id="age-pattern" aria-labelledby="heterogeneity-title">
+        <div class="case-section-label">
+          <p>04</p>
+          <h2 id="heterogeneity-title">Age matters</h2>
+        </div>
+        <div>
+          <div class="case-prose case-prose-large">
+            <p>
+              The strongest secondary result appears at age 18, when students are
+              closer to a more intensive transition into the labor market.
+            </p>
+          </div>
+          <div class="age-comparison">
+            <article>
+              <p>Students 15–17</p>
+              <strong>−0.20 h</strong>
+              <span>95% CI [−0.63, 0.23]</span>
+              <i class="age-bar age-bar-younger"></i>
+            </article>
+            <article>
+              <p>Students age 18</p>
+              <strong>−2.13 h</strong>
+              <span>95% CI [−3.09, −1.17]</span>
+              <i class="age-bar age-bar-eighteen"></i>
+            </article>
+          </div>
+          <figure class="stata-figure">
+            <img
+              src="assets/projects/enoe/02_cover_age_heterogeneity.svg"
+              alt="The estimated reduction is 0.20 hours for students ages 15 to 17 and 2.13 hours for students age 18."
+            />
+            <figcaption>The estimated response is concentrated among students age 18.</figcaption>
+          </figure>
+          <p class="case-footnote">
+            The age interaction is statistically significant, but the subgroup
+            comparison remains observational and should not be interpreted as an
+            experiment created by turning 18.
+          </p>
+        </div>
+      </section>
+
+      <section class="case-section case-limitations" id="limitations" aria-labelledby="limits-title">
+        <div class="case-section-label">
+          <p>05</p>
+          <h2 id="limits-title">What this does not prove</h2>
+        </div>
+        <div class="case-prose">
+          <p>
+            IPWRA improves comparability and is doubly robust with respect to the
+            treatment and outcome models. It does not remove bias from unobserved
+            vulnerability, family preferences, school motivation, local shocks, or
+            administrative assignment criteria absent from ENOE.
+          </p>
+          <p>
+            The treatment also captures government economic support broadly. The data
+            do not identify a specific scholarship, its amount, or its duration.
+            Accordingly, the results describe an adjusted association—not a definitive
+            evaluation of any single program.
+          </p>
+        </div>
+      </section>
+
+      <footer class="case-footer">
+        <p>Next project</p>
+        <a href="blog.html">Explore notes and visualizations →</a>
+      </footer>
+      </div>
+    </main>
+  </body>
+</html>

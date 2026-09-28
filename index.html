@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Daniel Mendoza is an economist who uses data to understand change and communicate evidence."
+    />
+    <title>Daniel Mendoza — Economist who works with data</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body class="home-page">
+    <div class="custom-cursor" aria-hidden="true"></div>
+
+    <header class="site-header home-header">
+      <a class="site-identity" href="#top">Daniel Mendoza</a>
+      <nav class="site-nav" aria-label="Primary navigation">
+        <a href="#work">Work</a>
+        <a href="blog.html">Blog</a>
+        <a href="assets/documents/daniel-mendoza-resume.pdf" target="_blank" rel="noopener">Resume</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="intro-hero" aria-labelledby="intro-title">
+        <canvas class="phase-field" data-phase-field aria-hidden="true"></canvas>
+        <div class="intro-copy">
+          <h1 id="intro-title">
+            <span class="intro-line">
+              I'm
+              <span class="intro-selected-name">
+                <span class="intro-name-highlight" aria-hidden="true"></span>
+                <i class="intro-selection-handle intro-selection-handle-start" aria-hidden="true"></i>
+                <i class="intro-selection-handle intro-selection-handle-end" aria-hidden="true"></i>
+                <span class="intro-name-text">Daniel Mendoza</span>
+              </span>, an economist focused on
+            </span>
+            <span class="intro-line">econometrics, data analysis, and visualization.</span>
+          </h1>
+        </div>
+      </section>
+
+      <section class="selected-work" id="work" aria-label="Selected work">
+        <div class="project-grid">
+          <a
+            class="project-card project-card-enoe"
+            href="apoyos-oferta-laboral.html"
+            data-case-study
+            aria-label="View case study: Government support and youth labor supply in Mexico"
+          >
+            <div class="project-cover project-cover-stata">
+              <figure class="stata-main-window">
+                <img
+                  src="assets/projects/enoe/stata-main-results.png"
+                  alt="Stata results window showing marginal-effect estimates from the ENOE analysis."
+                />
+              </figure>
+
+              <figure class="stata-graph-window stata-graph-overlap">
+                <figcaption>Graph · Propensity-score overlap</figcaption>
+                <img
+                  src="assets/projects/enoe/04_propensity_overlap.svg"
+                  alt="Propensity-score overlap between students receiving and not receiving government support."
+                />
+              </figure>
+
+              <figure class="stata-graph-window stata-graph-age">
+                <figcaption>Graph · Effects by age</figcaption>
+                <img
+                  src="assets/projects/enoe/02_cover_age_heterogeneity.svg"
+                  alt="Estimated effects on weekly working hours by age."
+                />
+              </figure>
+            </div>
+
+            <div class="project-card-copy">
+              <h3>Government support and youth labor supply in Mexico</h3>
+              <p class="project-meta">Econometrics · ENOE · Causal inference · Stata</p>
+            </div>
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="home-footer">
+      <nav class="footer-profiles" aria-label="External profiles">
+        <a
+          href="https://github.com/danielmendoza-econ"
+          target="_blank"
+          rel="noopener"
+          aria-label="Daniel Mendoza on GitHub"
+        >
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M12 .297C5.37.297 0 5.67 0 12.297c0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61-.546-1.385-1.335-1.754-1.335-1.754-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23a11.5 11.5 0 0 1 3-.405c1.02.005 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297 24 5.67 18.627.297 12 .297Z" />
+          </svg>
+          <span>GitHub</span>
+        </a>
+
+        <a
+          href="https://observablehq.com/@danielmendoza-econ/"
+          target="_blank"
+          rel="noopener"
+          aria-label="Daniel Mendoza on Observable"
+        >
+          <svg viewBox="-1.5 0 28 28" aria-hidden="true">
+            <path d="M12.5 22.667c-1.154 0-2.154-.252-3-.754a5.091 5.091 0 0 1-1.945-2.048 10.801 10.801 0 0 1-.991-2.741A14.747 14.747 0 0 1 6.25 14c0-.83.054-1.624.164-2.382.108-.758.309-1.529.602-2.31a7.37 7.37 0 0 1 1.129-2.035 5.118 5.118 0 0 1 1.807-1.401c.746-.36 1.594-.539 2.548-.539 1.154 0 2.154.252 3 .754.843.501 1.517 1.21 1.945 2.048.452.861.782 1.775.991 2.741.209.965.314 2.007.314 3.124a16.7 16.7 0 0 1-.163 2.382 10.63 10.63 0 0 1-.615 2.31c-.302.782-.677 1.46-1.13 2.035-.451.575-1.05 1.042-1.794 1.401-.745.36-1.594.539-2.548.539Zm2.206-6.373c.598-.6.93-1.43.919-2.294 0-.893-.299-1.658-.896-2.294-.598-.637-1.34-.956-2.229-.956s-1.631.319-2.23.956A3.236 3.236 0 0 0 9.376 14c0 .893.299 1.658.896 2.294.598.637 1.34.956 2.229.956s1.624-.319 2.206-.956ZM12.5 27C19.403 27 25 21.18 25 14S19.403 1 12.5 1 0 6.82 0 14s5.597 13 12.5 13Z" />
+          </svg>
+          <span>Observable</span>
+        </a>
+      </nav>
+
+      <a
+        class="footer-codex-credit"
+        href="https://openai.com/codex/"
+        target="_blank"
+        rel="noopener"
+        aria-label="Built with care and Codex"
+      >
+        <span>Built with care +</span>
+        <img src="assets/brand/codex-icon-light.png" alt="" aria-hidden="true" />
+        <span>Codex</span>
+      </a>
+    </footer>
+  </body>
+</html>
