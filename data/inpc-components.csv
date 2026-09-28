@@ -1,0 +1,645 @@
+date,series,index,annual_change
+2019-01,Agricultural products,108.686,7.407
+2019-01,Core,101.785,3.596
+2019-01,Core goods,101.914,3.659
+2019-01,Core services,101.645,3.513
+2019-01,Energy and government-regulated tariffs,106.132,6.258
+2019-01,Headline,103.108,4.366
+2019-01,Non-core,107.199,6.808
+2019-02,Agricultural products,104.037,4.798
+2019-02,Core,102.224,3.537
+2019-02,Core goods,102.417,3.614
+2019-02,Core services,102.016,3.430
+2019-02,Energy and government-regulated tariffs,106.932,5.732
+2019-02,Headline,103.079,3.940
+2019-02,Non-core,105.722,5.253
+2019-03,Agricultural products,103.339,3.702
+2019-03,Core,102.576,3.552
+2019-03,Core goods,102.767,3.705
+2019-03,Core services,102.370,3.379
+2019-03,Energy and government-regulated tariffs,108.353,6.860
+2019-03,Headline,103.476,4.004
+2019-03,Non-core,106.258,5.467
+2019-04,Agricultural products,103.884,4.767
+2019-04,Core,103.043,3.871
+2019-04,Core goods,103.140,3.738
+2019-04,Core services,102.939,3.968
+2019-04,Energy and government-regulated tariffs,105.869,7.009
+2019-04,Headline,103.531,4.413
+2019-04,Non-core,105.039,6.082
+2019-05,Agricultural products,104.060,6.080
+2019-05,Core,103.212,3.775
+2019-05,Core goods,103.436,3.817
+2019-05,Core services,102.971,3.691
+2019-05,Energy and government-regulated tariffs,102.750,5.501
+2019-05,Headline,103.233,4.282
+2019-05,Non-core,103.297,5.780
+2019-06,Agricultural products,103.873,6.232
+2019-06,Core,103.526,3.849
+2019-06,Core goods,103.675,3.923
+2019-06,Core services,103.364,3.754
+2019-06,Energy and government-regulated tariffs,101.684,2.831
+2019-06,Headline,103.299,3.947
+2019-06,Non-core,102.599,4.188
+2019-07,Agricultural products,105.950,6.327
+2019-07,Core,103.794,3.821
+2019-07,Core goods,103.831,3.846
+2019-07,Core services,103.755,3.792
+2019-07,Energy and government-regulated tariffs,101.494,1.731
+2019-07,Headline,103.687,3.781
+2019-07,Non-core,103.356,3.644
+2019-08,Agricultural products,104.364,2.783
+2019-08,Core,104.005,3.777
+2019-08,Core goods,104.146,3.761
+2019-08,Core services,103.853,3.794
+2019-08,Energy and government-regulated tariffs,101.387,0.201
+2019-08,Headline,103.670,3.162
+2019-08,Non-core,102.632,1.283
+2019-09,Agricultural products,104.339,2.978
+2019-09,Core,104.315,3.750
+2019-09,Core goods,104.547,3.765
+2019-09,Core services,104.065,3.734
+2019-09,Energy and government-regulated tariffs,101.676,-0.905
+2019-09,Headline,103.942,2.998
+2019-09,Non-core,102.789,0.706
+2019-10,Agricultural products,104.452,3.818
+2019-10,Core,104.572,3.684
+2019-10,Core goods,104.815,3.783
+2019-10,Core services,104.310,3.576
+2019-10,Energy and government-regulated tariffs,104.175,-0.914
+2019-10,Headline,104.503,3.020
+2019-10,Non-core,104.291,1.013
+2019-11,Agricultural products,106.379,2.179
+2019-11,Core,104.804,3.653
+2019-11,Core goods,104.940,3.634
+2019-11,Core services,104.656,3.673
+2019-11,Energy and government-regulated tariffs,107.486,0.140
+2019-11,Headline,105.346,2.974
+2019-11,Non-core,107.023,0.977
+2019-12,Agricultural products,108.269,-0.033
+2019-12,Core,105.234,3.594
+2019-12,Core goods,105.216,3.556
+2019-12,Core services,105.253,3.635
+2019-12,Energy and government-regulated tariffs,107.973,1.041
+2019-12,Headline,105.934,2.829
+2019-12,Non-core,108.097,0.588
+2020-01,Agricultural products,110.250,1.439
+2020-01,Core,105.577,3.726
+2020-01,Core goods,105.912,3.923
+2020-01,Core services,105.215,3.512
+2020-01,Energy and government-regulated tariffs,108.335,2.076
+2020-01,Headline,106.447,3.238
+2020-01,Non-core,109.135,1.806
+2020-02,Agricultural products,112.173,7.820
+2020-02,Core,105.961,3.656
+2020-02,Core goods,106.330,3.821
+2020-02,Core services,105.563,3.477
+2020-02,Energy and government-regulated tariffs,108.018,1.015
+2020-02,Headline,106.889,3.696
+2020-02,Non-core,109.754,3.814
+2020-03,Agricultural products,113.630,9.959
+2020-03,Core,106.272,3.603
+2020-03,Core goods,106.706,3.833
+2020-03,Core services,105.804,3.355
+2020-03,Energy and government-regulated tariffs,104.965,-3.127
+2020-03,Headline,106.838,3.249
+2020-03,Non-core,108.586,2.192
+2020-04,Agricultural products,112.731,8.516
+2020-04,Core,106.654,3.504
+2020-04,Core goods,107.383,4.113
+2020-04,Core services,105.867,2.845
+2020-04,Energy and government-regulated tariffs,95.972,-9.349
+2020-04,Headline,105.755,2.148
+2020-04,Non-core,102.976,-1.964
+2020-05,Agricultural products,114.245,9.788
+2020-05,Core,106.972,3.643
+2020-05,Core goods,107.881,4.298
+2020-05,Core services,105.991,2.933
+2020-05,Energy and government-regulated tariffs,96.058,-6.513
+2020-05,Headline,106.162,2.837
+2020-05,Non-core,103.659,0.350
+2020-06,Agricultural products,111.862,7.692
+2020-06,Core,107.366,3.710
+2020-06,Core goods,108.533,4.686
+2020-06,Core services,106.106,2.653
+2020-06,Energy and government-regulated tariffs,99.756,-1.896
+2020-06,Headline,106.743,3.334
+2020-06,Non-core,104.816,2.161
+2020-07,Agricultural products,111.825,5.546
+2020-07,Core,107.791,3.850
+2020-07,Core goods,109.224,5.194
+2020-07,Core services,106.244,2.399
+2020-07,Energy and government-regulated tariffs,102.454,0.947
+2020-07,Headline,107.444,3.623
+2020-07,Non-core,106.371,2.917
+2020-08,Agricultural products,112.811,8.093
+2020-08,Core,108.132,3.968
+2020-08,Core goods,109.732,5.364
+2020-08,Core services,106.405,2.457
+2020-08,Energy and government-regulated tariffs,102.906,1.498
+2020-08,Headline,107.867,4.048
+2020-08,Non-core,107.046,4.301
+2020-09,Agricultural products,112.854,8.161
+2020-09,Core,108.474,3.986
+2020-09,Core goods,110.192,5.400
+2020-09,Core services,106.618,2.453
+2020-09,Energy and government-regulated tariffs,102.803,1.108
+2020-09,Headline,108.114,4.014
+2020-09,Non-core,107.004,4.101
+2020-10,Agricultural products,114.492,9.612
+2020-10,Core,108.733,3.979
+2020-10,Core goods,110.515,5.438
+2020-10,Core services,106.810,2.397
+2020-10,Energy and government-regulated tariffs,104.886,0.682
+2020-10,Headline,108.774,4.087
+2020-10,Non-core,108.901,4.420
+2020-11,Agricultural products,114.038,7.200
+2020-11,Core,108.642,3.662
+2020-11,Core goods,110.177,4.990
+2020-11,Core services,106.985,2.225
+2020-11,Energy and government-regulated tariffs,106.269,-1.132
+2020-11,Headline,108.856,3.332
+2020-11,Non-core,109.516,2.329
+2020-12,Agricultural products,112.554,3.958
+2020-12,Core,109.237,3.804
+2020-12,Core goods,111.025,5.521
+2020-12,Core services,107.306,1.951
+2020-12,Energy and government-regulated tariffs,107.095,-0.813
+2020-12,Headline,109.271,3.150
+2020-12,Non-core,109.377,1.184
+2021-01,Agricultural products,113.161,2.640
+2021-01,Core,109.629,3.838
+2021-01,Core goods,111.637,5.405
+2021-01,Core services,107.461,2.134
+2021-01,Energy and government-regulated tariffs,111.177,2.624
+2021-01,Headline,110.210,3.535
+2021-01,Non-core,112.006,2.630
+2021-02,Agricultural products,112.914,0.661
+2021-02,Core,110.061,3.869
+2021-02,Core goods,112.216,5.535
+2021-02,Core services,107.734,2.056
+2021-02,Energy and government-regulated tariffs,113.962,5.503
+2021-02,Headline,110.907,3.759
+2021-02,Non-core,113.524,3.435
+2021-03,Agricultural products,114.352,0.635
+2021-03,Core,110.654,4.123
+2021-03,Core goods,112.887,5.793
+2021-03,Core services,108.243,2.305
+2021-03,Energy and government-regulated tariffs,116.225,10.728
+2021-03,Headline,111.824,4.667
+2021-03,Non-core,115.442,6.313
+2021-04,Agricultural products,117.334,4.084
+2021-04,Core,111.061,4.132
+2021-04,Core goods,113.389,5.593
+2021-04,Core services,108.547,2.531
+2021-04,Energy and government-regulated tariffs,114.492,19.298
+2021-04,Headline,112.190,6.085
+2021-04,Non-core,115.680,12.337
+2021-05,Agricultural products,119.577,4.668
+2021-05,Core,111.644,4.367
+2021-05,Core goods,114.091,5.756
+2021-05,Core services,109.002,2.841
+2021-05,Energy and government-regulated tariffs,111.394,15.965
+2021-05,Headline,112.419,5.894
+2021-05,Non-core,114.814,10.761
+2021-06,Agricultural products,119.633,6.947
+2021-06,Core,112.281,4.578
+2021-06,Core goods,114.834,5.806
+2021-06,Core services,109.525,3.222
+2021-06,Energy and government-regulated tariffs,112.180,12.454
+2021-06,Headline,113.018,5.879
+2021-06,Non-core,115.295,9.997
+2021-07,Agricultural products,120.516,7.772
+2021-07,Core,112.815,4.661
+2021-07,Core goods,115.494,5.741
+2021-07,Core services,109.923,3.463
+2021-07,Energy and government-regulated tariffs,113.381,10.665
+2021-07,Headline,113.682,5.806
+2021-07,Non-core,116.363,9.394
+2021-08,Agricultural products,122.905,8.948
+2021-08,Core,113.297,4.776
+2021-08,Core goods,116.303,5.988
+2021-08,Core services,110.050,3.426
+2021-08,Energy and government-regulated tariffs,110.627,7.503
+2021-08,Headline,113.899,5.592
+2021-08,Non-core,115.759,8.140
+2021-09,Agricultural products,124.601,10.409
+2021-09,Core,113.815,4.924
+2021-09,Core goods,117.090,6.260
+2021-09,Core services,110.280,3.435
+2021-09,Energy and government-regulated tariffs,111.594,8.551
+2021-09,Headline,114.601,6.000
+2021-09,Non-core,117.030,9.370
+2021-10,Agricultural products,124.824,9.024
+2021-10,Core,114.378,5.191
+2021-10,Core goods,117.788,6.581
+2021-10,Core services,110.696,3.638
+2021-10,Energy and government-regulated tariffs,115.190,9.824
+2021-10,Headline,115.561,6.240
+2021-10,Non-core,119.217,9.473
+2021-11,Agricultural products,130.417,14.363
+2021-11,Core,114.799,5.667
+2021-11,Core goods,118.157,7.243
+2021-11,Core services,111.174,3.916
+2021-11,Energy and government-regulated tariffs,118.236,11.261
+2021-11,Headline,116.884,7.375
+2021-11,Non-core,123.327,12.611
+2021-12,Agricultural products,130.318,15.782
+2021-12,Core,115.721,5.936
+2021-12,Core goods,119.236,7.396
+2021-12,Core services,111.925,4.305
+2021-12,Energy and government-regulated tariffs,116.392,8.681
+2021-12,Headline,117.308,7.355
+2021-12,Non-core,122.212,11.735
+2022-01,Agricultural products,130.499,15.322
+2022-01,Core,116.433,6.206
+2022-01,Core goods,120.415,7.863
+2022-01,Core services,112.133,4.348
+2022-01,Energy and government-regulated tariffs,117.360,5.561
+2022-01,Headline,118.002,7.070
+2022-01,Non-core,122.851,9.682
+2022-02,Agricultural products,131.171,16.169
+2022-02,Core,117.317,6.593
+2022-02,Core goods,121.577,8.342
+2022-02,Core services,112.717,4.625
+2022-02,Energy and government-regulated tariffs,119.064,4.477
+2022-02,Headline,118.981,7.280
+2022-02,Non-core,124.124,9.337
+2022-03,Agricultural products,132.789,16.123
+2022-03,Core,118.156,6.780
+2022-03,Core goods,122.703,8.695
+2022-03,Core services,113.247,4.623
+2022-03,Energy and government-regulated tariffs,121.727,4.734
+2022-03,Headline,120.159,7.454
+2022-03,Non-core,126.351,9.450
+2022-04,Agricultural products,134.178,14.356
+2022-04,Core,119.074,7.215
+2022-04,Core goods,123.964,9.326
+2022-04,Core services,113.795,4.835
+2022-04,Energy and government-regulated tariffs,120.423,5.180
+2022-04,Headline,120.809,7.683
+2022-04,Non-core,126.172,9.070
+2022-05,Agricultural products,135.219,13.081
+2022-05,Core,119.774,7.282
+2022-05,Core goods,124.966,9.532
+2022-05,Core services,114.168,4.739
+2022-05,Energy and government-regulated tariffs,117.454,5.440
+2022-05,Headline,121.022,7.653
+2022-05,Non-core,124.879,8.766
+2022-06,Agricultural products,137.597,15.016
+2022-06,Core,120.696,7.495
+2022-06,Core goods,126.218,9.913
+2022-06,Core services,114.735,4.757
+2022-06,Energy and government-regulated tariffs,118.035,5.219
+2022-06,Headline,122.044,7.986
+2022-06,Non-core,126.211,9.468
+2022-07,Agricultural products,139.856,16.048
+2022-07,Core,121.447,7.651
+2022-07,Core goods,127.130,10.075
+2022-07,Core services,115.312,4.903
+2022-07,Energy and government-regulated tariffs,118.777,4.759
+2022-07,Headline,122.948,8.151
+2022-07,Non-core,127.587,9.646
+2022-08,Agricultural products,141.221,14.903
+2022-08,Core,122.417,8.050
+2022-08,Core goods,128.577,10.553
+2022-08,Core services,115.766,5.194
+2022-08,Energy and government-regulated tariffs,118.651,7.253
+2022-08,Headline,123.803,8.695
+2022-08,Non-core,128.084,10.647
+2022-09,Agricultural products,143.356,15.052
+2022-09,Core,123.239,8.280
+2022-09,Core goods,129.781,10.839
+2022-09,Core services,116.176,5.346
+2022-09,Energy and government-regulated tariffs,118.157,5.881
+2022-09,Headline,124.571,8.700
+2022-09,Non-core,128.689,9.962
+2022-10,Agricultural products,142.610,14.249
+2022-10,Core,124.013,8.424
+2022-10,Core goods,130.916,11.145
+2022-10,Core services,116.560,5.297
+2022-10,Energy and government-regulated tariffs,119.536,3.773
+2022-10,Headline,125.276,8.407
+2022-10,Non-core,129.180,8.357
+2022-11,Agricultural products,142.015,8.893
+2022-11,Core,124.574,8.515
+2022-11,Core goods,131.481,11.277
+2022-11,Core services,117.117,5.346
+2022-11,Energy and government-regulated tariffs,122.053,3.228
+2022-11,Headline,125.997,7.797
+2022-11,Non-core,130.396,5.732
+2022-12,Agricultural products,142.727,9.522
+2022-12,Core,125.379,8.346
+2022-12,Core goods,132.455,11.086
+2022-12,Core services,117.739,5.195
+2022-12,Energy and government-regulated tariffs,120.646,3.655
+2022-12,Headline,126.478,7.817
+2022-12,Non-core,129.875,6.270
+2023-01,Agricultural products,143.455,9.928
+2023-01,Core,126.275,8.453
+2023-01,Core goods,133.656,10.996
+2023-01,Core services,118.307,5.506
+2023-01,Energy and government-regulated tariffs,121.397,3.440
+2023-01,Headline,127.336,7.910
+2023-01,Non-core,130.616,6.321
+2023-02,Agricultural products,143.355,9.289
+2023-02,Core,127.047,8.294
+2023-02,Core goods,134.524,10.649
+2023-02,Core services,118.973,5.550
+2023-02,Energy and government-regulated tariffs,122.363,2.771
+2023-02,Headline,128.046,7.619
+2023-02,Non-core,131.137,5.650
+2023-03,Agricultural products,142.400,7.238
+2023-03,Core,127.712,8.088
+2023-03,Core goods,135.124,10.123
+2023-03,Core services,119.710,5.707
+2023-03,Energy and government-regulated tariffs,121.921,0.159
+2023-03,Headline,128.389,6.849
+2023-03,Non-core,130.480,3.268
+2023-04,Agricultural products,142.400,6.128
+2023-04,Core,128.206,7.669
+2023-04,Core goods,135.794,9.543
+2023-04,Core services,120.013,5.464
+2023-04,Energy and government-regulated tariffs,119.118,-1.084
+2023-04,Headline,128.363,6.253
+2023-04,Non-core,128.849,2.122
+2023-05,Agricultural products,141.916,4.953
+2023-05,Core,128.621,7.386
+2023-05,Core goods,136.268,9.044
+2023-05,Core services,120.365,5.428
+2023-05,Energy and government-regulated tariffs,115.300,-1.834
+2023-05,Headline,128.084,5.835
+2023-05,Non-core,126.424,1.237
+2023-06,Agricultural products,141.578,2.893
+2023-06,Core,129.008,6.887
+2023-06,Core goods,136.649,8.264
+2023-06,Core services,120.757,5.249
+2023-06,Energy and government-regulated tariffs,114.405,-3.075
+2023-06,Headline,128.214,5.056
+2023-06,Non-core,125.762,-0.356
+2023-07,Agricultural products,144.274,3.159
+2023-07,Core,129.511,6.640
+2023-07,Core goods,137.072,7.820
+2023-07,Core services,121.349,5.235
+2023-07,Energy and government-regulated tariffs,114.139,-3.905
+2023-07,Headline,128.832,4.786
+2023-07,Non-core,126.734,-0.669
+2023-08,Agricultural products,146.785,3.940
+2023-08,Core,129.864,6.083
+2023-08,Core goods,137.400,6.862
+2023-08,Core services,121.727,5.149
+2023-08,Energy and government-regulated tariffs,115.475,-2.677
+2023-08,Headline,129.545,4.638
+2023-08,Non-core,128.561,0.372
+2023-09,Agricultural products,148.012,3.248
+2023-09,Core,130.334,5.757
+2023-09,Core goods,137.823,6.197
+2023-09,Core services,122.248,5.227
+2023-09,Energy and government-regulated tariffs,116.137,-1.710
+2023-09,Headline,130.120,4.454
+2023-09,Non-core,129.459,0.598
+2023-10,Agricultural products,144.923,1.622
+2023-10,Core,130.837,5.503
+2023-10,Core goods,138.293,5.635
+2023-10,Core services,122.786,5.341
+2023-10,Energy and government-regulated tariffs,119.121,-0.347
+2023-10,Headline,130.609,4.257
+2023-10,Non-core,129.905,0.561
+2023-11,Agricultural products,146.064,2.851
+2023-11,Core,131.183,5.305
+2023-11,Core goods,138.485,5.327
+2023-11,Core services,123.298,5.278
+2023-11,Energy and government-regulated tariffs,122.342,0.237
+2023-11,Headline,131.445,4.324
+2023-11,Non-core,132.256,1.426
+2023-12,Agricultural products,150.807,5.661
+2023-12,Core,131.758,5.088
+2023-12,Core goods,138.928,4.887
+2023-12,Core services,124.016,5.331
+2023-12,Energy and government-regulated tariffs,122.402,1.455
+2023-12,Headline,132.373,4.661
+2023-12,Non-core,134.274,3.387
+2024-01,Agricultural products,157.446,9.753
+2024-01,Core,132.291,4.764
+2024-01,Core goods,139.492,4.366
+2024-01,Core services,124.516,5.248
+2024-01,Energy and government-regulated tariffs,123.113,1.414
+2024-01,Headline,133.555,4.884
+2024-01,Non-core,137.462,5.241
+2024-02,Agricultural products,150.198,4.773
+2024-02,Core,132.945,4.642
+2024-02,Core goods,140.052,4.109
+2024-02,Core services,125.273,5.295
+2024-02,Energy and government-regulated tariffs,125.726,2.748
+2024-02,Headline,133.681,4.401
+2024-02,Non-core,135.954,3.673
+2024-03,Agricultural products,149.403,4.918
+2024-03,Core,133.524,4.551
+2024-03,Core goods,140.366,3.879
+2024-03,Core services,126.137,5.369
+2024-03,Energy and government-regulated tariffs,125.926,3.285
+2024-03,Headline,134.065,4.421
+2024-03,Non-core,135.738,4.030
+2024-04,Agricultural products,152.870,7.353
+2024-04,Core,133.803,4.366
+2024-04,Core goods,140.781,3.672
+2024-04,Core services,126.269,5.213
+2024-04,Energy and government-regulated tariffs,123.858,3.979
+2024-04,Headline,134.336,4.653
+2024-04,Non-core,135.983,5.537
+2024-05,Agricultural products,153.889,8.437
+2024-05,Core,134.035,4.209
+2024-05,Core goods,140.879,3.384
+2024-05,Core services,126.646,5.218
+2024-05,Energy and government-regulated tariffs,120.141,4.199
+2024-05,Headline,134.087,4.687
+2024-05,Non-core,134.246,6.187
+2024-06,Agricultural products,156.252,10.365
+2024-06,Core,134.329,4.125
+2024-06,Core goods,141.134,3.282
+2024-06,Core services,126.982,5.155
+2024-06,Energy and government-regulated tariffs,120.448,5.282
+2024-06,Headline,134.594,4.976
+2024-06,Non-core,135.412,7.673
+2024-07,Agricultural products,164.069,13.720
+2024-07,Core,134.753,4.048
+2024-07,Core goods,141.302,3.086
+2024-07,Core services,127.682,5.219
+2024-07,Energy and government-regulated tariffs,122.486,7.313
+2024-07,Headline,136.003,5.566
+2024-07,Non-core,139.866,10.362
+2024-08,Agricultural products,160.657,9.451
+2024-08,Core,135.053,3.996
+2024-08,Core goods,141.551,3.021
+2024-08,Core services,128.033,5.180
+2024-08,Energy and government-regulated tariffs,123.069,6.576
+2024-08,Headline,136.013,4.993
+2024-08,Non-core,138.886,8.031
+2024-09,Agricultural products,158.014,6.758
+2024-09,Core,135.433,3.912
+2024-09,Core goods,141.842,2.916
+2024-09,Core services,128.486,5.103
+2024-09,Energy and government-regulated tariffs,123.111,6.005
+2024-09,Headline,136.080,4.580
+2024-09,Non-core,137.879,6.504
+2024-10,Agricultural products,160.751,10.922
+2024-10,Core,135.813,3.803
+2024-10,Core goods,142.182,2.812
+2024-10,Core services,128.895,4.975
+2024-10,Energy and government-regulated tariffs,124.627,4.622
+2024-10,Headline,136.828,4.762
+2024-10,Non-core,139.886,7.683
+2024-11,Agricultural products,161.752,10.740
+2024-11,Core,135.876,3.577
+2024-11,Core goods,141.798,2.392
+2024-11,Core services,129.344,4.904
+2024-11,Energy and government-regulated tariffs,127.911,4.552
+2024-11,Headline,137.424,4.549
+2024-11,Non-core,142.308,7.600
+2024-12,Agricultural products,160.716,6.571
+2024-12,Core,136.567,3.650
+2024-12,Core goods,142.366,2.475
+2024-12,Core services,130.136,4.935
+2024-12,Energy and government-regulated tariffs,128.484,4.969
+2024-12,Headline,137.949,4.212
+2024-12,Non-core,142.257,5.945
+2025-01,Agricultural products,158.320,0.555
+2025-01,Core,137.134,3.661
+2025-01,Core goods,143.320,2.744
+2025-01,Core services,130.362,4.695
+2025-01,Energy and government-regulated tariffs,129.680,5.334
+2025-01,Headline,138.343,3.585
+2025-01,Non-core,142.060,3.345
+2025-02,Agricultural products,156.039,3.889
+2025-02,Core,137.793,3.647
+2025-02,Core goods,143.902,2.749
+2025-02,Core services,131.080,4.635
+2025-02,Energy and government-regulated tariffs,130.216,3.571
+2025-02,Headline,138.726,3.774
+2025-02,Non-core,141.499,4.079
+2025-03,Agricultural products,156.682,4.872
+2025-03,Core,138.386,3.641
+2025-03,Core goods,144.547,2.979
+2025-03,Core services,131.623,4.349
+2025-03,Energy and government-regulated tariffs,129.629,2.941
+2025-03,Headline,139.161,3.801
+2025-03,Non-core,141.388,4.162
+2025-04,Agricultural products,159.189,4.134
+2025-04,Core,139.065,3.933
+2025-04,Core goods,145.541,3.381
+2025-04,Core services,132.022,4.556
+2025-04,Energy and government-regulated tariffs,127.565,2.993
+2025-04,Headline,139.620,3.933
+2025-04,Non-core,141.092,3.757
+2025-05,Agricultural products,164.295,6.762
+2025-05,Core,139.476,4.059
+2025-05,Core goods,146.056,3.675
+2025-05,Core services,132.338,4.494
+2025-05,Energy and government-regulated tariffs,124.865,3.932
+2025-05,Headline,140.012,4.419
+2025-05,Non-core,141.419,5.343
+2025-06,Agricultural products,164.132,5.043
+2025-06,Core,140.026,4.241
+2025-06,Core goods,146.650,3.908
+2025-06,Core services,132.844,4.616
+2025-06,Energy and government-regulated tariffs,124.739,3.563
+2025-06,Headline,140.405,4.317
+2025-06,Non-core,141.277,4.331
+2025-07,Agricultural products,164.353,0.173
+2025-07,Core,140.454,4.231
+2025-07,Core goods,146.979,4.018
+2025-07,Core services,133.355,4.443
+2025-07,Energy and government-regulated tariffs,124.905,1.975
+2025-07,Headline,140.780,3.512
+2025-07,Non-core,141.466,1.144
+2025-08,Agricultural products,162.599,1.209
+2025-08,Core,140.762,4.227
+2025-08,Core goods,147.284,4.050
+2025-08,Core services,133.661,4.396
+2025-08,Energy and government-regulated tariffs,124.931,1.513
+2025-08,Headline,140.867,3.569
+2025-08,Non-core,140.796,1.375
+2025-09,Agricultural products,162.372,2.758
+2025-09,Core,141.227,4.278
+2025-09,Core goods,147.781,4.187
+2025-09,Core services,134.094,4.365
+2025-09,Energy and government-regulated tariffs,124.854,1.416
+2025-09,Headline,141.197,3.760
+2025-09,Non-core,140.660,2.017
+2025-10,Agricultural products,160.907,0.097
+2025-10,Core,141.630,4.283
+2025-10,Core goods,148.039,4.119
+2025-10,Core services,134.619,4.441
+2025-10,Energy and government-regulated tariffs,127.208,2.071
+2025-10,Headline,141.708,3.567
+2025-10,Non-core,141.543,1.185
+2025-11,Agricultural products,163.202,0.896
+2025-11,Core,141.896,4.431
+2025-11,Core goods,147.994,4.370
+2025-11,Core services,135.150,4.489
+2025-11,Energy and government-regulated tariffs,130.982,2.401
+2025-11,Headline,142.645,3.799
+2025-11,Non-core,144.773,1.732
+2025-12,Agricultural products,162.124,0.876
+2025-12,Core,142.474,4.325
+2025-12,Core goods,148.488,4.300
+2025-12,Core services,135.797,4.350
+2025-12,Energy and government-regulated tariffs,131.300,2.192
+2025-12,Headline,143.042,3.692
+2025-12,Non-core,144.548,1.610
+2026-01,Agricultural products,160.726,1.520
+2026-01,Core,143.331,4.519
+2026-01,Core goods,149.859,4.563
+2026-01,Core services,136.199,4.478
+2026-01,Energy and government-regulated tariffs,131.346,1.285
+2026-01,Headline,143.588,3.791
+2026-01,Non-core,144.030,1.387
+2026-02,Agricultural products,163.054,4.496
+2026-02,Core,143.990,4.497
+2026-02,Core goods,150.447,4.548
+2026-02,Core services,136.912,4.449
+2026-02,Energy and government-regulated tariffs,131.368,0.885
+2026-02,Headline,144.307,4.023
+2026-02,Non-core,144.954,2.442
+2026-03,Agricultural products,170.418,8.767
+2026-03,Core,144.543,4.449
+2026-03,Core goods,150.881,4.382
+2026-03,Core services,137.563,4.513
+2026-03,Energy and government-regulated tariffs,132.491,2.208
+2026-03,Headline,145.544,4.587
+2026-03,Non-core,148.527,5.049
+2026-04,Agricultural products,171.888,7.977
+2026-04,Core,144.991,4.261
+2026-04,Core goods,151.346,3.989
+2026-04,Core services,137.992,4.522
+2026-04,Energy and government-regulated tariffs,131.132,2.796
+2026-04,Headline,145.831,4.449
+2026-04,Non-core,148.261,5.081
+2026-05,Agricultural products,169.065,2.903
+2026-05,Core,145.315,4.186
+2026-05,Core goods,151.585,3.786
+2026-05,Core services,138.386,4.570
+2026-05,Energy and government-regulated tariffs,128.948,3.270
+2026-05,Headline,145.527,3.939
+2026-05,Non-core,145.808,3.104
+2026-06,Agricultural products,161.303,-1.724
+2026-06,Core,145.671,4.031
+2026-06,Core goods,151.863,3.555
+2026-06,Core services,138.806,4.488
+2026-06,Energy and government-regulated tariffs,129.054,3.459
+2026-06,Headline,145.131,3.366
+2026-06,Non-core,142.839,1.106
+2026-07,Agricultural products,158.866,-3.339
+2026-07,Core,146.000,3.949
+2026-07,Core goods,152.152,3.520
+2026-07,Core services,139.165,4.357
+2026-07,Energy and government-regulated tariffs,129.040,3.311
+2026-07,Headline,145.169,3.118
+2026-07,Non-core,141.877,0.291
+2026-08,Agricultural products,160.110,-1.531
+2026-08,Core,146.229,3.884
+2026-08,Core goods,152.312,3.414
+2026-08,Core services,139.451,4.332
+2026-08,Energy and government-regulated tariffs,129.085,3.325
+2026-08,Headline,145.462,3.262
+2026-08,Non-core,142.391,1.133
