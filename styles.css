@@ -3233,3 +3233,109 @@ h2 {
     padding-left: 1.25rem;
   }
 }
+
+/* Mobile refinements — readable introduction and contained case-study visuals */
+@media (max-width: 720px) {
+  .intro-copy {
+    width: min(100%, 30rem);
+  }
+
+  .intro-copy h1 {
+    max-width: 17ch;
+    margin-inline: auto;
+    font-size: clamp(1.65rem, 7.8vw, 3rem);
+    letter-spacing: -0.045em;
+    line-height: 1.16;
+    text-wrap: balance;
+  }
+
+  .intro-line {
+    display: inline;
+    white-space: normal;
+  }
+
+  .intro-selected-name {
+    white-space: nowrap;
+  }
+
+  .case-cover {
+    min-height: auto;
+    grid-template-rows: auto auto;
+    gap: 1.5rem;
+    padding: 2.25rem 1.25rem 1.5rem;
+  }
+
+  .case-cover-graphics {
+    min-height: clamp(16rem, 78vw, 22rem);
+  }
+
+  .case-cover-sheet {
+    width: 84%;
+  }
+
+  .case-cover-sheet-one {
+    top: 0;
+    left: 0;
+    transform: rotate(-1.2deg);
+  }
+
+  .case-cover-sheet-two {
+    right: 0;
+    bottom: 0;
+    transform: rotate(1.2deg);
+  }
+
+  .stata-figure,
+  .result-chart-card {
+    max-width: 100%;
+    margin-right: 0;
+    margin-left: 0;
+    overflow: hidden;
+  }
+
+  .stata-figure {
+    padding: 0.75rem 0.75rem 1rem;
+  }
+
+  .stata-figure img,
+  .case-forest-export,
+  .case-forest {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+  }
+
+  .result-chart-card {
+    padding: 1.5rem 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .case-facts,
+  .pipeline {
+    grid-template-columns: 1fr;
+  }
+
+  .pipeline div,
+  .pipeline div:nth-child(2) {
+    border-right: 0;
+    border-bottom: 1px solid var(--case-line);
+  }
+
+  .pipeline div:last-child {
+    border-bottom: 0;
+  }
+
+  .pipeline div {
+    min-height: 12rem;
+  }
+
+  .case-cover-number {
+    font-size: clamp(4.75rem, 23vw, 6.25rem);
+  }
+
+  .finding-pair strong,
+  .age-comparison strong {
+    white-space: normal;
+  }
+}
