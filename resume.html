@@ -4,29 +4,35 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="Resume of Daniel Mendoza, economist who works with data." />
-    <title>Resume — Daniel Mendoza</title>
-    <link rel="stylesheet" href="styles.css" />
-    <script src="script.js" defer></script>
+    <title>RESUME - Daniel Mendoza</title>
+    <style>
+      html,
+      body {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        background: #525659;
+        overflow: hidden;
+      }
+
+      object {
+        display: block;
+        width: 100%;
+        height: 100%;
+        border: 0;
+      }
+    </style>
   </head>
   <body>
-    <div class="custom-cursor" aria-hidden="true"></div>
-    <header class="site-header">
-      <a class="site-identity" href="index.html">Daniel Mendoza is an economist working with data.</a>
-      <nav class="site-nav" aria-label="Primary navigation">
-        <a href="index.html#work">Work</a>
-        <a href="blog.html">Blog</a>
-        <a href="assets/documents/daniel-mendoza-resume.pdf" target="_blank" rel="noopener">Resume</a>
-      </nav>
-    </header>
-
-    <main class="interior-page">
-      <p class="eyebrow">Experience and education</p>
-      <h1>Resume</h1>
-      <p class="page-intro">
-        My full resume will live here. For now, this portfolio documents the
-        projects, notes, and tools I am developing at the intersection of
-        economics and data.
+    <object
+      data="assets/documents/daniel-mendoza-resume.pdf"
+      type="application/pdf"
+      aria-label="Resume of Daniel Mendoza"
+    >
+      <p>
+        Your browser cannot display the PDF.
+        <a href="assets/documents/daniel-mendoza-resume.pdf">Download the resume</a>.
       </p>
-    </main>
+    </object>
   </body>
 </html>
