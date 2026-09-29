@@ -998,7 +998,7 @@ h2 {
 .intro-hero {
   position: relative;
   display: grid;
-  min-height: calc(100svh - 3.5rem);
+  min-height: calc(84svh - 3.5rem);
   place-items: center;
   overflow: hidden;
   padding: clamp(4.5rem, 9vw, 8rem) var(--page-gutter);
@@ -1125,7 +1125,7 @@ h2 {
 
 @media (max-width: 720px) {
   .intro-hero {
-    min-height: calc(100svh - 3.35rem);
+    min-height: calc(88svh - 3.35rem);
     padding: 4.5rem 1.25rem;
   }
 
@@ -1687,7 +1687,7 @@ h2 {
 
 /* Selected work — compact editorial cards */
 .selected-work {
-  padding-top: clamp(2.5rem, 4vw, 4rem);
+  padding-top: clamp(1.5rem, 2.4vw, 2.5rem);
   padding-bottom: clamp(7rem, 10vw, 10rem);
   border-top: 0;
 }
@@ -1728,9 +1728,17 @@ h2 {
   aspect-ratio: 4 / 3;
   overflow: hidden;
   padding: 0;
-  background: rgba(2, 127, 255, 1);
+  background: linear-gradient(
+    135deg,
+    rgb(116, 202, 255) -8%,
+    rgb(2, 127, 255) 46%,
+    rgb(0, 63, 205) 108%
+  );
+  background-position: 0% 45%;
+  background-size: 165% 165%;
   user-select: none;
   -webkit-user-select: none;
+  animation: stata-cover-breathe 9s ease-in-out infinite alternate;
   transition: transform 650ms cubic-bezier(0.2, 0.8, 0.2, 1),
     box-shadow 650ms ease;
 }
@@ -1739,6 +1747,10 @@ h2 {
   position: absolute;
   inset: -36%;
   z-index: 0;
+  width: auto;
+  height: auto;
+  border: 0;
+  border-radius: 0;
   background: linear-gradient(
     118deg,
     transparent 31%,
@@ -1746,12 +1758,27 @@ h2 {
     transparent 57%
   );
   content: "";
-  transform: translateX(-30%) rotate(7deg);
-  transition: transform 950ms cubic-bezier(0.2, 0.75, 0.25, 1);
+  opacity: 0;
+  transform: translateX(-52%) rotate(7deg);
+  animation: stata-cover-light 8.5s cubic-bezier(0.2, 0.75, 0.25, 1) infinite;
 }
 
 .project-cover-stata::after {
-  display: none;
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  display: block;
+  width: auto;
+  height: auto;
+  border-radius: 0;
+  background-image:
+    linear-gradient(rgba(255, 255, 255, 0.065) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.065) 1px, transparent 1px);
+  background-color: transparent;
+  background-size: 2.65rem 2.65rem;
+  content: "";
+  opacity: 0.55;
+  transform: translateZ(0);
 }
 
 .stata-main-window,
@@ -1769,6 +1796,8 @@ h2 {
   width: 88%;
   filter: drop-shadow(0 18px 22px rgba(20, 48, 76, 0.2));
   transform: none;
+  translate: 0 0;
+  animation: stata-main-drift 7.5s ease-in-out infinite;
 }
 
 .stata-main-window img {
@@ -1788,28 +1817,28 @@ h2 {
 
 .stata-graph-window figcaption {
   display: flex;
-  min-height: 1.45rem;
+  min-height: 0.88rem;
   align-items: center;
-  gap: 0.42rem;
-  padding: 0.32rem 0.55rem;
+  gap: 0.24rem;
+  padding: 0.16rem 0.34rem;
   border-bottom: 1px solid rgba(60, 73, 86, 0.14);
   background: linear-gradient(#fafafa, #ececec);
   color: rgba(70, 78, 86, 0.72);
   font-family: "Paper Mono", monospace;
-  font-size: clamp(0.34rem, 0.52vw, 0.49rem);
+  font-size: clamp(0.22rem, 0.33vw, 0.32rem);
   line-height: 1;
   white-space: nowrap;
 }
 
 .stata-graph-window figcaption::before {
-  width: 0.38rem;
-  height: 0.38rem;
+  width: 0.22rem;
+  height: 0.22rem;
   flex: 0 0 auto;
   border-radius: 50%;
   background: #f25f58;
-  box-shadow: 0.55rem 0 #f7bf45, 1.1rem 0 #4ac05e;
+  box-shadow: 0.34rem 0 #f7bf45, 0.68rem 0 #4ac05e;
   content: "";
-  margin-right: 1rem;
+  margin-right: 0.62rem;
 }
 
 .stata-graph-window img {
@@ -1823,6 +1852,8 @@ h2 {
   right: 4%;
   width: 43%;
   transform: none;
+  translate: 0 0;
+  animation: stata-overlap-drift 6.8s ease-in-out infinite;
 }
 
 .stata-graph-age {
@@ -1830,17 +1861,14 @@ h2 {
   left: 4%;
   width: 41%;
   transform: none;
+  translate: 0 0;
+  animation: stata-age-drift 7.2s ease-in-out -1.4s infinite;
 }
 
 .project-card:hover .project-cover-stata,
 .project-card:focus-visible .project-cover-stata {
   box-shadow: 0 25px 58px rgba(38, 75, 109, 0.2);
   transform: scale(1.016);
-}
-
-.project-card:hover .project-cover-stata::before,
-.project-card:focus-visible .project-cover-stata::before {
-  transform: translateX(28%) rotate(7deg);
 }
 
 .project-card:hover .stata-main-window,
@@ -1858,6 +1886,39 @@ h2 {
 .project-card:focus-visible .stata-graph-age {
   box-shadow: 0 23px 42px rgba(22, 53, 82, 0.3);
   transform: translate(-3%, 5%) scale(1.055);
+}
+
+.project-card:hover .stata-main-window,
+.project-card:hover .stata-graph-window,
+.project-card:focus-visible .stata-main-window,
+.project-card:focus-visible .stata-graph-window {
+  animation-play-state: paused;
+}
+
+@keyframes stata-cover-breathe {
+  from { background-position: 0% 45%; }
+  to { background-position: 100% 55%; }
+}
+
+@keyframes stata-cover-light {
+  0%, 22% { opacity: 0; transform: translateX(-52%) rotate(7deg); }
+  35% { opacity: 0.72; }
+  58%, 100% { opacity: 0; transform: translateX(48%) rotate(7deg); }
+}
+
+@keyframes stata-main-drift {
+  0%, 100% { translate: 0 0; }
+  50% { translate: 0 -1.2%; }
+}
+
+@keyframes stata-overlap-drift {
+  0%, 100% { translate: 0 0; }
+  50% { translate: 1.5% -2.5%; }
+}
+
+@keyframes stata-age-drift {
+  0%, 100% { translate: 0 0; }
+  50% { translate: -1.5% 2.2%; }
 }
 
 .project-card:focus-visible {
@@ -1982,7 +2043,7 @@ h2 {
   }
 
   .selected-work {
-    padding-top: 2.5rem;
+    padding-top: 1.5rem;
     padding-bottom: 7rem;
   }
 
@@ -2074,8 +2135,10 @@ h2 {
 
   .project-cover-stata,
   .project-cover-stata::before,
+  .project-cover-stata::after,
   .stata-main-window,
   .stata-graph-window {
+    animation: none;
     transition: none;
   }
 
